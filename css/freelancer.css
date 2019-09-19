@@ -18,6 +18,11 @@ h6 {
   font-family: 'Montserrat';
 }
 
+sect-h {
+	font-weight: 700;
+	font-family: 'Montserrat';
+}
+
 hr.star-light,
 hr.star-dark {
   max-width: 15rem;
@@ -203,6 +208,7 @@ header.masthead h2 {
 
 .portfolio {
   margin-bottom: -15px;
+  background-color: lightgray
 }
 
 .portfolio .portfolio-item {
