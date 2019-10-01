@@ -7,7 +7,7 @@
 
 
 body {
-  font-family: 'Lato';
+  font-family: 'Helvetica Neue';
 }
 
 h1,
@@ -17,12 +17,12 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: 'Helvetica Neue';
 }
 
 sect-h {
 	font-weight: 700;
-	font-family: 'Montserrat';
+	font-family: 'Helvetica neue';
 }
 
 hr.star-light,
