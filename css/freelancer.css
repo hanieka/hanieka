@@ -45,7 +45,7 @@ hr.star-dark:after {
   display: inline-block;
   padding: 0 0.25em;
   content: '\f005';
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Helvetica Neue';
   font-weight: 900;
   font-size: 2em;
 }
@@ -113,8 +113,9 @@ section h2 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
+padding-right: 19rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family:'Helvetica Neue';
 }
 
 .bg-secondary {
