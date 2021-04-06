@@ -22,6 +22,11 @@
 	margin-right:0px !important;
 }
 
+.alice {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
 
 body{font-family: 'Rubik', sans-serif;
 font-weight:400;
