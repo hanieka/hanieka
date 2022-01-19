@@ -24,10 +24,15 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" type="text/css"> 
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" rel="stylesheet" type="text/css"> 
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
@@ -35,29 +40,25 @@
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet">
   <link href="css/freelancer.css" rel="stylesheet">
-	
-	
-
+  <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+  <link href="css/specimen_files/grid_12-825-55-15.css" rel="stylesheet" type="text/css">
+  <link href="css/specimen_files/specimen_stylesheet.css" rel="stylesheet" type="text/css">
 </head>
 
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase text-center" id="mainNav">
+  <nav class="navbar navbar-expand-lg bg-primary fixed-top text-uppercase text-center" id="mainNav">
     <div class="container">
 <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> Menu <em class="fas fa-bars"></em></button>
       <div class="collapse navbar-collapse text-center mx-auto" id="navbarResponsive">
 		
         <ul class="navbar-nav ml-auto"> 
-			<li class="nav-item mx-auto text-center"> <a class="nav-link py-3 px-0 px-lg-4 rounded js-scroll-trigger" href="#page-top"><img src="img/logoImage.png" alt=""></a> </li>
+			<li class="nav-item mx-auto"> <a class="nav-link py-4 px-0 px-lg-4 rounded js-scroll-trigger" href="#home">Home</a> </li>
           <li class="nav-item mx-auto"> <a class="nav-link py-4 px-0 px-lg-4 rounded js-scroll-trigger" href="#portfolio">Design</a> </li>
-		 <li class="nav-item mx-auto"> <a class="nav-link py-4 px-0 px-lg-4 rounded js-scroll-trigger" href="#portfolio2">Photography</a> </li>
-			<li class="nav-item mx-auto"> <a class="nav-link py-4 px-0 px-lg-4 rounded js-scroll-trigger" href="#portfolio3">Studio Art</a> </li>
+		 <li class="nav-item mx-auto"> <a class="nav-link py-4 px-0 px-lg-4 rounded js-scroll-trigger" href="personal.html">Personal Work</a> </li>
           <li class="nav-item mx-auto">
             <a class="nav-link py-4 px-0 px-lg-4 rounded js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item mx-auto">
-            <a class="nav-link py-4 px-0 px-lg-4 rounded js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -66,239 +67,111 @@
 	
 
   <!-- Header -->
-  <header class="masthead bg-primary text-white text-center">
+  <header class="masthead bg-primary text-white text-center" id="home">
     <div class="container">
-      <img class="img-fluid mb-5 d-block mx-auto" src="img/personal.logo.png" alt="">
-      <h1 class="text-uppercase mb-0">Hanieka Balint</h1> <br>
-      <h2 class="font-weight-light mb-0">Graphic Designer | Photographer | Studio Artist</h2>
+		<h2 class="text-uppercase cloud-text cloud-title mb-0">Hanieka Balint</h2>
     </div>
   </header>
-
+	
   <!-- Portfolio Grid Section -->
   <section class="portfolio" id="portfolio">
-    <div class="container"> 
-      <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2> <br>
-      <h4 class="text-center">Graphic Design<br> 
-      </h4>
-    <br> 
+    <div class="container">  
       <div class="row">
 		          <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
+                <p class="fas fa-3x text-center hover">The Circuit</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/globe.jpg" alt="The Boston Globe Co-op">
+            <img class="img-fluid" src="img/portfolio/circuit.jpg" alt="Mockup of The Circuit Website">
           </a>
         </div>
 		          <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
+                <p class="fas fa-3x text-center hover">Type Design</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/rm29.jpg" alt="Rm 29 Designs">
+            <img class="img-fluid" src="img/portfolio/garfunkel.jpg" alt="Poster Mockup of Garfunkel font">
           </a>
         </div>
 		          <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
+                <p class="fas fa-3x text-center hover">Keep the T Running</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/search.jpg" alt="Search Sustainable">
+            <img class="img-fluid" src="img/portfolio/mbta.jpg" alt="Mockup of Keep the T running flip book">
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
+                <p class="fas fa-3x text-center hover">Family Memories</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/aeris.jpg" alt="Aeris">
+            <img class="img-fluid" src="img/portfolio/family.jpg" alt="Mockup of Family memories book">
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
+                <p class="fas fa-3x text-center hover">Album Covers</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/farmers.jpg" alt="The Farmer's Daughter Gravel Grinder">
+            <img class="img-fluid" src="img/portfolio/aeris.jpg" alt="Mockup of Aeris vinyl cover">
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6"> 
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
+                <p class="fas fa-3x text-center hover">Search Sustainable</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/mediatorshirt.jpg" alt="Mediator">
+            <img class="img-fluid" src="img/portfolio/search.jpg" alt="Mockup of search sustainable website">
           </a>
         </div>
 		  <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-7">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
+                <p class="fas fa-3x text-center hover">The Boston Globe</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/family.jpg" alt="Family Memories">
+            <img class="img-fluid" src="img/portfolio/globe.jpg" alt="Mockup of The Boston Globe newspaper">
           </a>
         </div>
 		          		          <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-8">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
+                <p class="fas fa-3x text-center hover">Rm 29 Designs</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/johnodonnell.jpg" alt="John O'Donnell">
+            <img class="img-fluid" src="img/portfolio/rm29.jpg" alt="Mockup of Rm 29 business cards">
           </a>
         </div>
         <div class="col-md-6 col-lg-4">
           <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-9"> 
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
+                <p class="fas fa-3x text-center hover">Logo Designs</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/powerhouse.jpg" alt="Scout Studio">
+            <img class="img-fluid" src="img/portfolio/mediatorshirt.jpg" alt="Mockup of shirt with mediator logo on it">
           </a>
         </div>
       </div>
     </div>
 	</section>
 	
-	 <!-- Portfolio Grid Section -->
-  <section class="portfolio" id="portfolio2">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2> <br>
-      <h4 class="text-center">Photography<br> 
-      </h4>
-    <br> 
-      <div class="row">
-        <div class="col-md-6 col-lg-6">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-10">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/farmersphoto.JPG" alt="Farmer's Daughter">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-6">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-11">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/groupcover.jpg" alt="Group Portraits">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-6">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-12">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/nightcover.jpg" alt="Night Photography">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-6">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-13">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/solocover.jpg" alt="Solo Portraits">
-          </a>
-        </div>
-    </div>
-	  </div>
-  </section>
-
-	 <!-- Portfolio Grid Section -->
-  <section class="portfolio" id="portfolio3">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2> <br>
-      <h4 class="text-center">Studio Art<br> 
-      </h4>
-    <br> 
-      <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-14">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/cabin.jpg" alt="68 2nd Street">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-15">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/cake.jpg" alt="Dust">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-16">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/circus.jpg" alt="Public Alleyway">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-17">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/game.jpg" alt="Shipyard Puddle">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-18">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/safe.jpg" alt="Asbesto">
-          </a>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-19">
-            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                <i class="fas fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/submarine.jpg" alt="Lake Champlain">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+	
 
   <!-- About Section -->
   <section class="bg-primary text-white mb-0" id="about">
@@ -306,7 +179,7 @@
       <h2 class="text-center text-uppercase text-white">About</h2>
     <br>
       <div class="row">
-        <p class="lead text-left offset-lg-2 col-lg-8"><strong></strong> I was born and raised in Troy, NY but now work in  Boston, MA. I am a graphic designer, artist, photographer, and lover of all things creative. &nbsp;Check out my portfolio above, contact me below, or look at&nbsp;my&nbsp;<a href="HaniekaBalint.Resume.pdf" class="text-secondary">resume!</a>
+        <p class="lead text-left offset-lg-2 col-lg-8"><strong></strong> I was born and raised in Troy, NY but now work in  Boston, MA. I am a graphic designer, artist, photographer, and lover of all things creative. &nbsp;Check out my portfolio above, contact me below, or look at&nbsp;my&nbsp;<a href="HaniekaBalint.Resume.pdf" class="text-link">resume!</a>
 		  </p>
       </div>
 </div>
@@ -327,14 +200,14 @@
    
 			<i class="far fa-envelope fa-2x"></i> 
 			
-		   <a href="mailto:hanieka.b@gmail.com" target="_blank"> <p class="lead mb-0">hanieka.b@gmail.com</p> </a>
+		   <a href="mailto:hanieka.b@gmail.com" target="_blank"> <p class="lead mb-0 text-link-light">hanieka.b@gmail.com</p> </a>
         </div>  
 		
 <div class="text-center col-md-6 col-sm-12">
        
 	<i class="fab fa-linkedin fa-2x"></i> 	  
 	<a href="https://www.linkedin.com/in/hanieka" target="_blank"> 
-		<p class="lead mb-0">www.linkedin.com/in/hanieka</p> </a> 
+		<p class="lead mb-0 text-link-light">www.linkedin.com/in/hanieka</p> </a> 
             </div>
         </div>
       </div>
@@ -345,7 +218,7 @@
 
   <div class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; Hanieka Balint 2021</small>
+      <small>Copyright &copy; Hanieka Balint 2022</small>
     </div>
   </div>
 	</footer>
@@ -361,7 +234,7 @@
 	  
 	  
 	  <!-- Portfolio Modal 1 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-1" style="background-color: lightgray">
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-7" style="background-color: lightgray">
     <div class="portfolio-modal-dialog bg-white">
       <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
         <i class="fa fa-3x fa-times"></i>
@@ -407,7 +280,7 @@
 	
 	
 	 <!-- Portfolio Modal 2 -->
-	<div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+	<div class="portfolio-modal mfp-hide" id="portfolio-modal-8">
     <div class="portfolio-modal-dialog bg-white">
       <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
         <i class="fa fa-3x fa-times"></i>
@@ -429,7 +302,7 @@
             <img class="img-fluid mb-5" src="img/portfolio/rm29.2.png" alt="">
 			   <img class="img-fluid mb-5" src="img/portfolio/rm29.3.png" alt="">
 			  <img class="img-fluid mb-5" src="img/portfolio/rm29faces.png" alt="">
-			  <p class="mb-5">Check out our website at <a href="http://rmtwentynine.com/">rmtwentynine.com</a></p>
+			  <p class="mb-5">Check out our website at <a href="http://rmtwentynine.com/" class="text-link-light">rmtwentynine.com</a></p>
 			  
 			  <div class="container text-center">
         <div class="row">
@@ -451,7 +324,7 @@
 			  
 			  
 			  	<!-- Portfolio Modal 3 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-3" style="background-color: lightgray">
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-6" style="background-color: lightgray">
     <div class="portfolio-modal-dialog bg-white">
       <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
         <i class="fa fa-3x fa-times"></i>
@@ -476,11 +349,11 @@
 			  <p class="mb-5">If a user finds a product that is not sustainable or otherwise unworthy of being on our site they can report it by pressing the report button in the bottom corner of the product card. The user enters a brief reason for the report and our admins are notified of the possible flawed product. Using the admin tools, our team can choose to remove the product or resolve the report in a manner they see fit.</p>
 			  <img class="img-fluid mb-5" src="img/portfolio/login.jpg" alt=""> 
 			  <p class="mb-5">Our admin user authentication process is powered by Firebase. If an administrator forgets their password they can use the forgot password link. They will get an email with a reset link fitted with a verification token that will allow them to securely reset their password.</p>
-			  <p class="mb-5"><a href="https://mia-ktlk.github.io/hbp2021process/">Click here for more details on how the web app works</a></p>
+			  <p class="mb-5"><a class="text-link-light" href="https://mia-ktlk.github.io/hbp2021process/">Click here for more details on how the web app works</a></p>
 			  <img class="img-fluid mb-5" src="img/portfolio/figma.jpg" alt=""> 
 			  <p class="mb-5">I used Figma and Adobe Creative Suite to research and create the design strategy for our brand. Search Sustainable is a helpful tool for making environmentally-conscious decisions, and so I created a style guide and logo that is clean, modern, and user-friendly.</p>
 			  <img class="img-fluid mb-5" src="img/portfolio/logo.gif" alt="">
-			  <p class="mb-5"><a href="http://search-sustainable.herokuapp.com/">Click here to view the finished project</a></p>
+			  <p class="mb-5"><a  class="text-link-light" href="http://search-sustainable.herokuapp.com/">Click here to view the finished project</a></p>
 			<div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -497,7 +370,7 @@
 		</div>
 	  
 	   <!-- Portfolio Modal 4 --> 
-	<div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+	<div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
     <div class="portfolio-modal-dialog bg-white">
       <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
         <i class="fa fa-3x fa-times"></i>
@@ -521,6 +394,7 @@
 			  <p class="mb-5"> For the "No No No" cover, I took a photo of a casette tape, then used photoshop to add Aeris's handwriting and adjust the colors, creating the final cover below.</p>
 										  <img class="img-fluid mb-5" src="img/portfolio/aeris2.jpg" alt="No No No photo">
 			  <img class="img-fluid mb-5" src="img/portfolio/aeris3.jpg" alt="No No No Album Cover">
+			  <iframe src="https://open.spotify.com/embed/track/6ZRn2UZD1kGphu0KpsO57F?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 										 <div class="container text-center">
         <div class="row">
@@ -540,7 +414,7 @@
   
 
   <!-- Portfolio Modal 5 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
     <div class="portfolio-modal-dialog bg-white">
       <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
         <i class="fa fa-3x fa-times"></i>
@@ -548,7 +422,7 @@
             <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">The Farmer's Daughter Gravel Grinder</h2>
+            <h2 class="text-secondary text-uppercase mb-0">Type Design</h2>
 			</div>
 		  </div>
 		</div>
@@ -557,13 +431,12 @@
           <div class="col-lg-8 mx-auto">
 			  <hr class="star-dark mb-5">
 			  <br> <br>
-<p class="mb-5"> The Farmer's Daughter Gravel Grinder is an annual 65 mile long bike ride and fundraiser that starts in Chatham, NY. Using Wordpress I created a new website for the Farmer's Daughter, and created a new version of their logo that was more eye-catching to be used on branded merchandise.</p>
-			    <img class="img-fluid mb-5" src="img/portfolio/farmers1.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmers2.png" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmers3.png" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmers4.png" alt="">
-<p class="mb-5">Check out the finished website at <a href="http://www.farmersdaughtergravelgrinder.com/">farmersdaughtergravelgrinder.com</a></p>
-<p class="mb-5"> I was also the photographer at the Farmer's Daughter 2021. To see my photos, check out the photography section of this site.</p>
+<p class="mb-5">In the Fall of 2021 I designed a slab serif font, named Garfunkel, using Adobe Illustrator and Glyphs. </p>
+			    <img class="img-fluid mb-5" src="img/portfolio/garfunkel1.svg" alt="">
+			  <form>
+  <textarea class="input-text">Type something, anything!</textarea>
+</form>
+<p class="mb-5">To download Garfunkel Regular as a .ttf file, feel free to contact me at hanieka.b@gmail.com!</p>
 			  
            <div class="container text-center">
         <div class="row">
@@ -581,7 +454,7 @@
 		</div>
 			  
 			  	 <!-- Portfolio Modal 6 --> 
-	<div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+	<div class="portfolio-modal mfp-hide" id="portfolio-modal-9">
     <div class="portfolio-modal-dialog bg-white">
       <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
         <i class="fa fa-3x fa-times"></i>
@@ -589,7 +462,7 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-           <h2 class="text-secondary text-uppercase mb-0">Mediator</h2>
+           <h2 class="text-secondary text-uppercase mb-0">Logo Design</h2>
 			</div>
 		  </div>
 		</div>
@@ -598,12 +471,13 @@
           <div class="col-lg-8 mx-auto">
 			  <hr class="star-dark mb-5"> 
 			  <br>
-            <p class="mb-5">Mediator Management Group LLC is a small company based in Troy, NY who hired me to design a logo as well as business cards and merchandise. Mediator is named after the British warship HMS Mediator, and the client requested that the logo and branding reflect that naval heritage.</p>
+            <p class="mb-5">As a freelancer, I've created a variety of logos for clients, who are predominantly small business owners. This is a selection of some of those logos.</p>
 						   <img class="img-fluid mb-5" src="img/portfolio/mediatorlogo.jpg" alt="">
-										  <img class="img-fluid mb-5" src="img/portfolio/mediatorbusinesscard.jpg" alt="">
-			  <p class="mb-5"><i>Employee name, phone number, and address on this business card has been edited for privacy at client's request</i></p>
-			  <br>
-										  <img class="img-fluid mb-5" src="img/portfolio/mediatorsweatshirt.jpg" alt="">
+							<img class="img-fluid mb-5" src="img/portfolio/johnodonnell.1.png" alt="">
+							<div class="container text-center">
+							<img class="img-fluid mb-5" src="img/portfolio/farmers1.jpg" alt="">
+								<img class="img-fluid mb-5" src="img/portfolio/mozark.png" alt="">
+								<img class="img-fluid mb-5" src="img/portfolio/flowriders.png" alt="">
 										 <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -620,7 +494,7 @@
 		</div>
 	
 	 <!-- Portfolio Modal 7 --> 
-	<div class="portfolio-modal mfp-hide" id="portfolio-modal-7">
+	<div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
     <div class="portfolio-modal-dialog bg-white">
       <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
         <i class="fa fa-3x fa-times"></i>
@@ -636,7 +510,7 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
 			  <hr class="star-dark mb-5">
-			  <p class="mb-5">During the summer of 2021 I worked on a personal project with my great-aunt. Over the course of the past year she had been writing stories about her life and about various members of our family, including my recently deceased great-grandparents. I took these stories and the many photos that she scanned from family photo albums and designed a book and cover.</p>						
+			  <p class="mb-5">During the summer of 2021 I worked on a personal project with my great-aunt. Over the course of the past year she had been writing stories about her life and about various members of our family, including my great-grandparents. I took these stories and the many photos that she scanned from family photo albums and designed a book and cover.</p>						
 			  <img class="img-fluid mb-5" src="img/portfolio/family1.jpg" alt=""> 
 			  <img class="img-fluid mb-5" src="img/portfolio/family2.jpg" alt=""> 
 			  <p class="mb-5">Each page is 8 x 10 inches, with a large outer margin to allow space for photo captions. All photos were constrained to the same margins as the text, with the exception of photos beside the chapter titles. </p>
@@ -660,7 +534,7 @@
 		</div>
 	
 	<!-- Portfolio Modal 8 --> 
-	<div class="portfolio-modal mfp-hide" id="portfolio-modal-8">
+	<div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
     <div class="portfolio-modal-dialog bg-white">
       <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
         <i class="fa fa-3x fa-times"></i>
@@ -668,7 +542,7 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">John A. O'Donnell Home Inspections</h2>
+            <h2 class="text-secondary text-uppercase mb-0">Keep the T Running</h2>
 			</div>
 		  </div>
 		</div>
@@ -677,10 +551,12 @@
           <div class="col-lg-8 mx-auto">
 			  <hr class="star-dark mb-5">
 			  <br> <br>
-<p class="mb-5"> John O'Donnell is an engineer who recently began performing home inspection services. He hired me to create a logo and business card for his new home inspection business, with an emphasis on reliability and expertise.</p>
-			    <img class="img-fluid mb-5" src="img/portfolio/johnodonnell.1.png" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/johnodonnell.2.png" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/johnodonnell.3.png" alt="">
+<p class="mb-5">In the fall of 2021 I designed a campaign to advocate for continuous 24/7 MBTA service as a semester-long class project. The final deliverable was a campaign book, outlining my cause, the campaign's brand, and applications.</p>
+			    <img class="img-fluid mb-5" src="img/portfolio/brandbookfinal.pdf" alt="">
+			  <iframe src="img/portfolio/brandbookfinal.pdf" width="100%" height="500px">
+    </iframe>
+			  <img class="img-fluid mb-5" src="img/portfolio/mbta1.png" alt="">
+			  
 			  
            <div class="container text-center">
         <div class="row">
@@ -698,7 +574,7 @@
 		</div>
   
 	 <!-- Portfolio Modal 9 --> 
-	<div class="portfolio-modal mfp-hide" id="portfolio-modal-9">
+	<div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
     <div class="portfolio-modal-dialog bg-white">
       <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
         <i class="fa fa-3x fa-times"></i>
@@ -706,7 +582,7 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">PowerHouse</h2>
+            <h2 class="text-secondary text-uppercase mb-0">The Circuit</h2>
 			</div>
 		  </div>
 		</div>
@@ -714,13 +590,19 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
 			  <hr class="star-dark mb-5">
-									  <p class="mb-5">In the spring of 2021 I joined Scout, Northeastern University's student-led design organization. I joined a studio team of 7 designers and developers to work on PowerHouse, a startup that created moveable solar panel sheds. Over the course of the Spring semester, the team created a branding strategy for Powerhouse as well as a UX design.</p>						
-			  <img class="img-fluid mb-5" src="img/portfolio/scout1.png" alt=""> 
-			  <img class="img-fluid mb-5" src="img/portfolio/scout2.png" alt=""> 
-			  <img class="img-fluid mb-5" src="img/portfolio/scout3.png" alt=""> 
-			  <img class="img-fluid mb-5" src="img/portfolio/scout4.png" alt=""> 
-			  <img class="img-fluid mb-5" src="img/portfolio/scout5.png" alt=""> 
-			  <img class="img-fluid mb-5" src="img/portfolio/scout6.png" alt=""> 
+									  <p class="mb-5">In the fall of 2021 I was a Project Lead for Scout, Northeastern University's student-led design organization. I managed a team of three designers and one developer to create a new brand and website for The Circuit.</p>		
+			  <p>The Circuit (formerly known as Tech for the People) is a student-run editorial and media platform that highlights the multifaceted uses and effects of technology. They came to Scout looking to add relevance and credibility to the organization through a rebrand and website update. User testing of the existing platform revealed that students viewed the organization as a blog rather than a credible editorial or a citable source.</p>
+			  <img class="img-fluid mb-5" src="img/portfolio/thecircuit_bannercaption_1.png" alt=""> 
+			  <p>We began the project by conducting research to understand what Tech for the People is and determine what Tech for the People could be. We worked with the client on brand exercises, conducted user interviews on the existing site, and wrote an elevator pitch that summarized the organization.</p>
+			  <img class="img-fluid mb-5" src="img/portfolio/circuit2.png" alt=""> 
+			  <p>Once we understood the goals of the rebrand, we started to explore visual identities with moodboarding. Based on client feedback from our moodboards we created a design strategy that outlined the new brand’s typography, color palette, UX components, and imagery to guide us through the remainder of the project. </p>
+			  <img class="img-fluid mb-5" src="img/portfolio/thecircuit_bannercaption_2.png" alt=""> 
+			  <p>As part of Tech for the People’s relaunch, the client requested a new name as well as a new logo.Our team and the client agreed that The Circuit was the name that represents the organization the best, referencing both themes of technology and connection.</p>
+			  <img class="img-fluid mb-5" src="img/portfolio/thecircuit_banner.png" alt=""> 
+			  <p>With a design strategy and logo in place, it was time for us to build a website that represented The Circuit’s brand. We began by writing user stories to help us determine what features the new site needed. Once a list of features was finalized and approved by the client, we created a sitemap that guided us through the designing of lo-fi and eventually hi-fi wireframes.</p>
+			  <img class="img-fluid mb-5" src="img/portfolio/thecircuit_bannercaption_3.png" alt=""> 
+			  <p>While a new website was our most prioritized deliverable, the client was also planning for a relaunch of The Circuit’s instagram page and newsletter. We created a new email template using Mailchimp as well as custom Canva templates for instagram posts.</p>
+			  <p>To guide the client through The Circuit’s relaunch, we created a brand book that outlined how to use the new color palette, typography, imagery, and components effectively. Our final deliverables included this <a href="The Circuit_Brandbook_031221.pdf" class="text-secondary">brand book</a> as well as a folder of logo files, social media and email templates, and a <a class="text-link-light" href="https://www.thecircuiteditorial.com/">newly published website.</a></p>
 			<div class="container text-center">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -735,270 +617,6 @@
 		</div>
 	  </div>
 		</div>
-            
-			  
-			    
-			<!-- Portfolio Modal 10 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-10">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Farmer's Daughter Gravel Grinder</h2>
-            <hr class="star-dark mb-5">
-			<img class="img-fluid mb-5" src="img/portfolio/farmersphoto1.JPG" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmersphoto2.JPG" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmersphoto3.JPG" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmersphoto4.JPG" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmersphoto5.JPG" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmersphoto6.JPG" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmersphoto7.JPG" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmersphoto8.JPG" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmersphoto9.JPG" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmersphoto10.JPG" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmersphoto11.JPG" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/farmersphoto12.JPG" alt="">
-            <p class="mb-5"> <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-				Close Project</a> </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 11 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-11">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">group portraits</h2>
-            <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/groupcover.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/group1.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/group2.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/group3.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/group4.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/group5.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/group6.jpg" alt="">
-            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-              Close Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 12 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-12">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Night photos</h2>
-            <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/nightcover.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/night1.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/night2.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/night3.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/night4.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/night5.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/night6.jpg" alt="">
-            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-              Close Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 13 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-13">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Solo portraits</h2>
-            <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/solocover.jpg" alt="">
-			<img class="img-fluid mb-5" src="img/portfolio/solo1.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/solo2.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/solo3.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/solo4.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/solo5.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/solo6.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/solo7.jpg" alt="">
-			  <img class="img-fluid mb-5" src="img/portfolio/solo8.jpg" alt="">
-            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-              Close Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
- 
-			
-			<!-- Portfolio Modal 14 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-14">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">68 2nd street</h2>
-            <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/cabin.jpg" alt="">
-			  <p class="mb-5">Acrylic </p>
-			  <p class="mb-5">18 x 24 inches </p>
-            <p class="mb-5">Troy, NY </p>
-            <p class="mb-5"> <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-				Close Project</a> </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 15 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-15">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">dust</h2>
-            <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/cake.jpg" alt="">
-            <p class="mb-5">Pastels</p>
-            <p class="mb-5">18 x 24 inches </p>
-            <p class="mb-5">Bennington, VT</p>
-            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-              Close Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 16 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-16">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">public Alleyway</h2>
-            <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/circus.jpg" alt="">
-            <p class="mb-5">Acrylic</p>
-            <p class="mb-5">8 x 11 inches</p>
-            <p class="mb-5">Troy, NY </p>
-            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-              Close Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 17 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-17">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Shipyard Puddle</h2>
-            <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/game.jpg" alt="">
-            <p class="mb-5">Acrylic</p>
-            <p class="mb-5">6 x 10 inches</p>
-            <p class="mb-5">Newport, RI </p>
-            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-              Close Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 18 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-18">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">asbestos</h2>
-            <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/safe.jpg" alt="">
-            <p class="mb-5">Acrylic</p>
-            <p class="mb-5">18 x 24 inches</p>
-            <p class="mb-5">Albany, NY </p>
-            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-              Close Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 19 -->
-  <div class="portfolio-modal mfp-hide" id="portfolio-modal-19">
-    <div class="portfolio-modal-dialog bg-white">
-      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-        <i class="fa fa-3x fa-times"></i>
-      </a>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="text-secondary text-uppercase mb-0">Lake Champlain</h2>
-            <hr class="star-dark mb-5">
-            <img class="img-fluid mb-5" src="img/portfolio/submarine.jpg" alt="">
-            <p class="mb-5">Acrylic</p>
-            <p class="mb-5">8 x 10 inches</p>
-            <p class="mb-5">Willsboro, NY </p>
-            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-              <i class="fa fa-close"></i>
-              Close Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-	
 	  
 
 			
