@@ -13,7 +13,9 @@ font-style:normal;
 }
 
 h1,
-h2,
+h2 {
+	color: #fff !important;
+}
 h3,
 h4,
 h5,
@@ -22,6 +24,57 @@ font-family: 'Rubik', sans-serif;
 font-weight:400;
 font-style:normal;
 }
+
+.text-link {
+	color: #99cc66;
+}
+
+.text-link:hover {
+	color: #99cc66;
+}
+
+.text-link-light {
+	color: #126842;
+}
+
+.text-link-light:hover {
+	color: #126842;
+}
+
+.cloud-text {
+	font-family: 'Rubik', sans-serif;
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;	
+	background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/clouds.jpg);
+	background-size: auto;
+	background-attachment: unset;
+	background-position: 0%;
+	width: 80%;
+	margin: 10%;
+	animation: clouds-moving infinite 220s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-timing-function: linear;
+	text-align: center;
+}
+
+.cloud-title {
+	font-size: 13vw !important;
+	font-weight: 900 !important;
+}
+@keyframes clouds-moving {
+	0% {
+		background-position: 0%;	
+	}
+	50% {
+		background-position: 100%;	
+	}
+	100% {
+		background-position: 0%;
+	}
+}
+
+
 
 sect-h {
 font-family: 'Rubik', sans-serif;
@@ -61,7 +114,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #99cc99;
+  background-color: #002d2d;
 }
 
 hr.star-dark {
@@ -118,14 +171,14 @@ section h2 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-padding-right: 21rem;
+text-align: center !important;
  font-family: 'Rubik', sans-serif;
 font-weight:400;
 font-style:normal;
 }
 
 .bg-secondary {
-    background-color: #99cc99 !important;
+    background-color: #ffffff !important;
 }
 
 #mainNav .navbar-brand {
@@ -142,7 +195,7 @@ font-style:normal;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #EAE8E8;
+  color: #99cc66;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -150,7 +203,7 @@ font-style:normal;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #99cc99;
+  color: #99cc66;
 }
 
 #mainNav .navbar-toggler {
@@ -175,11 +228,11 @@ font-style:normal;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #99cc99;
+    background: #002d2d;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #99cc99;
+    background: #002d2d;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -223,7 +276,11 @@ font-style:normal;
 
 .portfolio {
   margin-bottom: -15px;
-  background-color: white
+  background-color: #002d2d;
+}
+
+.portfolio-light {
+	background-color:#fff !important;
 }
 
 .portfolio .portfolio-item {
@@ -237,12 +294,12 @@ font-style:normal;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: #99cc99;
+  background-color: #002d2d;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
-  background-color: #99cc99
+  opacity: .8;
+  background-color: #002d2d
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
@@ -339,7 +396,7 @@ font-style:normal;
 }
 
 .floating-label-form-group-with-focus label {
-  color: #99cc99;
+  color: #002d2d;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -349,20 +406,20 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #99cc99;
+  background-color: #002d2d;
   color: #fff;
 }
 
 .copyright {
-  background-color: #99cc99;
+  background-color: #002d2d;
 }
 
 a {
-  color: #99cc99;
+  color: #002d2d;
 }
 
 a:focus, a:hover, a:active {
-  color: #99cc99;
+  color: #002d2d;
 }
 
 .btn {
@@ -370,26 +427,26 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #99cc99 !important;
+  background-color: #002d2d !important;
 }
 
 
 .text-primary {
-  color: #99cc99 !important;
+  color: #002d2d !important;
 }
 
 .text-secondary {
-  color: #929292 !important;
+  color: #002d2d !important;
 }
 
 .btn-primary {
-  background-color: #99cc99;
-  border-color: #99cc99;
+  background-color: #002d2d;
+  border-color: #002d2d;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #99cc99;
-  border-color: #99cc99;
+  background-color: #002d2d;
+  border-color: #002d2d;
 }
 
 .btn-secondary {
