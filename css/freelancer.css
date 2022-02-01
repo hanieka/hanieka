@@ -21,7 +21,9 @@
     .figure:hover img.image-hover {
       opacity: 1;
     }
-
+.border {
+	border: 1px solid #292929 !important;
+}
 
 body {
 font-family: 'Rubik', sans-serif;
