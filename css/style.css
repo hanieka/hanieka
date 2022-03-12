@@ -13,6 +13,24 @@
 	bacground-color: lightgray;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: #002d2d no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    overflow: visible;
+    background: #002d2d url("../preloader.gif") no-repeat center center;
+}
+
 .input-text {
 	font-family: 'Garfunkel', Arial, sans-serif; 
 	width: 100%;

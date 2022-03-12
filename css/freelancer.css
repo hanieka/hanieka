@@ -3,6 +3,36 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
+
+hr {
+	height:1px;
+	background-color:#99CC66;
+	border:none;
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
     .figure {
         position: relative;
         width: 360px; /* can be omitted for a regular non-lazy image */
@@ -54,6 +84,7 @@ font-style:normal;
 
 .text-link-light {
 	color: #126842;
+	text-decoration: underline;
 }
 
 .text-link-light:hover {
@@ -126,17 +157,7 @@ hr.star-dark {
 }
 
 hr.star-light:after,
-hr.star-dark:after {
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f005';
-  font-family: 'Rubik', sans-serif;
-font-weight:400;
-font-style:normal;
-  font-size: 2em;
-}
+
 
 hr.star-light {
   border-color: #fff;
