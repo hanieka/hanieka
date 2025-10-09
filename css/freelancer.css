@@ -87,6 +87,10 @@ font-style:normal;
 	text-decoration: underline;
 }
 
+.text-link-light-borderless {
+	font-size: 12pt;
+}
+
 .text-link-light:hover {
 	color: #126842;
 }

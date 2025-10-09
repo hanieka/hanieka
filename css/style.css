@@ -57,6 +57,11 @@ html, body {
 	padding-right: 100px;
 }
 
+.callout {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 
 body{font-family: 'Rubik', sans-serif;
 font-weight:400;
