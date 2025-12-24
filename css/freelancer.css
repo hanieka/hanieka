@@ -12,22 +12,22 @@ hr {
 
 @font-face {
    font-family: Nudica Regular;
-   src: url("css/nudicamono-regular-webfont.woff");
+	src:url("nudicamono-regular-webfont.woff") format("woff");
 }
 
 @font-face {
    font-family: Nudica Light;
-   src: url("css/nudicamono-light-webfont.woff");
+   src:url("nudicamono-light-webfont.woff") format("woff");
 }
 
 @font-face {
    font-family: Nudica Regular Italic;
-   src: url("css/nudicamono-regularitalic-webfont.woff");
+   src:url("nudicamono-regularitalic-webfont.woff") format("woff");
 }
 
 @font-face {
    font-family: Nudica Light Italic;
-   src: url("css/nudicamono-lightitalic-webfont.woff");
+   src:url("nudicamono-lightitalic-webfont.woff") format("woff");
 }
 
 
