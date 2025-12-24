@@ -10,6 +10,28 @@ hr {
 	border:none;
 }
 
+@font-face {
+   font-family: Nudica Regular;
+   src: url("/Users/hanieka/Downloads/hanieka-master/css/nudicamono-regular-webfont.woff");
+}
+
+@font-face {
+   font-family: Nudica Light;
+   src: url("/Users/hanieka/Downloads/hanieka-master/css/nudicamono-light-webfont.woff");
+}
+
+@font-face {
+   font-family: Nudica Regular Italic;
+   src: url("/Users/hanieka/Downloads/hanieka-master/css/nudicamono-regularitalic-webfont.woff");
+}
+
+@font-face {
+   font-family: Nudica Light Italic;
+   src: url("/Users/hanieka/Downloads/hanieka-master/css/nudicamono-lightitalic-webfont.woff");
+}
+
+
+
 /* Add animation to "page content" */
 .animate-bottom {
   position: relative;
@@ -56,21 +78,18 @@ hr {
 }
 
 body {
-font-family: 'Rubik', sans-serif;
-font-weight:400;
+font-family: 'Nudica Light', sans-serif;
 font-style:normal;
+letter-spacing: -0.5px;
 }
 
 h1,
-h2 {
-	color: #fff !important;
-}
+h2,
 h3,
 h4,
 h5,
 h6 {
-font-family: 'Rubik', sans-serif;
-font-weight:400;
+font-family: 'Nudica Regular', sans-serif;
 font-style:normal;
 }
 
@@ -142,7 +161,7 @@ font-style:normal;
 
 
 sect-h {
-font-family: 'Rubik', sans-serif;
+font-family: 'Nudica Regular', sans-serif;
 font-weight:400;
 font-style:normal;}
 
@@ -158,6 +177,11 @@ hr.star-dark {
   margin-bottom: 2.5rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.radial-gradient {
+	background-image: radial-gradient(circle at right, #99cc66, transparent),
+	url(https://grainy-gradients.vercel.app/noise.svg);
 }
 
 hr.star-light:after,
@@ -227,8 +251,7 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 text-align: center !important;
- font-family: 'Rubik', sans-serif;
-font-weight:400;
+ font-family: 'Nudica Regular', sans-serif;
 font-style:normal;
 }
 
@@ -237,7 +260,7 @@ font-style:normal;
 }
 
 #mainNav .navbar-brand {
-  color: #fff;
+  color: #000;
 }
 
 #mainNav .navbar-nav {
@@ -246,7 +269,7 @@ font-style:normal;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #000;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -254,7 +277,7 @@ font-style:normal;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: #000;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
@@ -282,12 +305,14 @@ font-style:normal;
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #002d2d;
+    color: #000;
+    border-width: 1px;
+	border-color: #000;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #002d2d;
+    color: #000;
+    border-width: 1px;
+	border-color: #000;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -297,6 +322,7 @@ font-style:normal;
     font-size: 1.5em;
   }
 }
+
 
 header.masthead {
   padding-top: calc(6rem + 72px);
@@ -310,8 +336,7 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-font-family: 'Rubik', sans-serif;
-font-weight:400;
+font-family: 'Nudica Regular', sans-serif;
 font-style:normal;
 }
 
@@ -319,6 +344,7 @@ font-style:normal;
   header.masthead {
     padding-top: calc(6rem + 106px);
     padding-bottom: 6rem;
+	  padding-left: 6rem;
   }
   header.masthead h1 {
     font-size: 4.75em;
@@ -326,16 +352,20 @@ font-style:normal;
   }
   header.masthead h2 {
     font-size: 1.75em;
+	  
   }
+	.masthead{
+		min-height: 100vh;
+	}
 }
 
 .portfolio {
   margin-bottom: -15px;
-  background-color: #002d2d;
+  background-color: #fcfefa;
 }
 
 .portfolio-light {
-	background-color:#fff !important;
+	background-color:#fcfefa !important;
 }
 
 .portfolio .portfolio-item {
@@ -343,18 +373,26 @@ font-style:normal;
   display: block;
   max-width: 25rem;
   margin-bottom: 15px;
+  border-width: 1px;
+  border-color: #000000;
 }
 
+.highlight{
+	background-color: #d1e6ce;
+	
+}
 .portfolio .portfolio-item .portfolio-item-caption {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
   background-color: #002d2d;
+  border-width: 1px;
+  border-color: #000;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: .8;
-  background-color: #002d2d
+  background-color: #ab9de7;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
@@ -478,11 +516,21 @@ a:focus, a:hover, a:active {
 }
 
 .btn {
-  border-width: 2px;
+  border-width: 1px;
 }
 
 .bg-primary {
-  background-color: #002d2d !important;
+  background-color: #fefaed !important,
+	url(https://grainy-gradients.vercel.app/noise.svg);
+}
+
+.bg-hero {
+  background-image: url("../img/hanieka_bg.webp");
+    background-position: 50% 100%;
+    background-size: cover;
+    height: auto;
+    padding-top: 300px;
+    padding-bottom: 100px;
 }
 
 
@@ -495,8 +543,11 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #002d2d;
+  background-color: #d1e6ce;
   border-color: #002d2d;
+  color:#000;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
