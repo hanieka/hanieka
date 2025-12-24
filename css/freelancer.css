@@ -12,22 +12,22 @@ hr {
 
 @font-face {
    font-family: Nudica Regular;
-   src: url("/Users/hanieka/Downloads/hanieka-master/css/nudicamono-regular-webfont.woff");
+   src: url("css/nudicamono-regular-webfont.woff");
 }
 
 @font-face {
    font-family: Nudica Light;
-   src: url("/Users/hanieka/Downloads/hanieka-master/css/nudicamono-light-webfont.woff");
+   src: url("css/nudicamono-light-webfont.woff");
 }
 
 @font-face {
    font-family: Nudica Regular Italic;
-   src: url("/Users/hanieka/Downloads/hanieka-master/css/nudicamono-regularitalic-webfont.woff");
+   src: url("css/nudicamono-regularitalic-webfont.woff");
 }
 
 @font-face {
    font-family: Nudica Light Italic;
-   src: url("/Users/hanieka/Downloads/hanieka-master/css/nudicamono-lightitalic-webfont.woff");
+   src: url("css/nudicamono-lightitalic-webfont.woff");
 }
 
 
