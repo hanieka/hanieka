@@ -388,6 +388,9 @@ font-style:normal;
 
 @media (max-width: 573px) {
   header.masthead {
+      padding-top: 0 !important;
+    padding-bottom: 0 !important;
+	  padding-left: 0 !important;
   }
   header.masthead h1 {
     font-size: 4.75em;
